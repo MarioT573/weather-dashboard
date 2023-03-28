@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>5 Day Weather Forecast</title>
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+    </head>
+
+    <body>
+    <h1>5 Day Weather Forecast</h1>
+    <div class="header">
+        <div class="title" id="titleScreen">
+            <p id="titlep">City: <input type="text" id="cityInput"></p>
+            <button class="start" id="startBtn">Search!</button>
+        </div>
+    </div>
+
+    <div class="wrapper hide" id="wrapper">
+        <div id="iconsContainer">    
+            <div class = "icons">
+                <p class="weather" id="day1"></p>
+                <div class="image"><img src="" class="imgClass" id="img1"></div>
+                <p class="minValues" id="day1Min"></p>
+                <p class="maxValues" id="day1Max"></p>
+                <p>Today</p>
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day2"></p>
+                <div class="image"><img src="" class="imgClass" id="img2"></div>
+                <p class="minValues" id="day2Min"></p>
+                <p class="maxValues" id="day2Max"></p>
+                <p>Tomorrow</p>
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day3"></p>
+                <div class="image"><img src="" class="imgClass" id="img3"></div>
+                <p class="minValues" id="day3Min"></p>
+                <p class="maxValues" id="day3Max"></p>
+                <p>3rd Day</p>
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day4"></p>
+                <div class="image"><img src="" class="imgClass" id="img4"></div>
+                <p class="minValues" id="day4Min"></p>
+                <p class="maxValues" id="day4Max"></p>
+                <p>4th Day</p>
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day5"></p>
+                <div class="image"><img src="" class="imgClass" id="img5"></div>
+                <p class="minValues" id="day5Min"></p>
+                <p class="maxValues" id="day5Max"></p>
+                <p>5th Day</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+    </body>
+</html>
